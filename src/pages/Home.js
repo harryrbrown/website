@@ -6,6 +6,8 @@ import './home.css';
 var i_alpha = null;
 var i_beta = null;
 var i_gamma = null;
+var diff_g = null;
+var diff_b = null;
 
 const Background = () => (
     <DeviceOrientation>
@@ -25,20 +27,43 @@ const Background = () => (
                             i_alpha = alpha;
                             i_beta = beta;
                             i_gamma = gamma;
+
+                            return (
+                                <div className="imgBgShell">
+                                    <div class="imgBg"></div>
+                                </div>
+                            );
+                        }
+                        else {
+                            if (i_beta < 0) {
+                                if (beta > i_beta + 180) {
+                                    diff_b = beta - i_beta - 360;
+                                } else {
+                                    diff_b = beta - i_beta;
+                                }
+                            } else {
+                                if (beta < i_beta - 180) {
+                                    diff_b = beta - i_beta + 360;
+                                } else {
+                                    diff_b = beta - i_beta;
+                                }
+                            }
+
+                            diff_b *= 0.4;
+                            diff_g = (gamma - i_gamma) * -0.4;
+                            // var diff_a = (alpha - i_alpha) * -0.4;
+                            // var diff_b = (beta - i_beta)  * -0.4;
+    
+                            diff_b = Math.max(Math.min(diff_b, 30), -30);
+                            // diff_g = Math.max(Math.min(diff_g, 30), -30);
+    
+                            return (
+                                <div className="imgBgShell">
+                                    <div class="imgBg" style={{transform: `translateX(${0}px) translateY(${diff_b}px) scale(1.1)`}}></div>
+                                </div>
+                            )
                         }
 
-                        var diff_g = (gamma - i_gamma) * -0.4;
-                        var diff_a = (alpha - i_alpha) * -0.4;
-                        var diff_b = (beta - i_beta)  * -0.4;
-
-                        diff_b = Math.max(Math.min(diff_b, 30), -30);
-                        diff_g = Math.max(Math.min(diff_g, 30), -30);
-
-                        return (
-                            <div className="imgBgShell">
-                                <div class="imgBg" style={{transform: `translateX(${diff_g}px) translateY(${diff_b}px) scale(1.1)`}}></div>
-                            </div>
-                        )
                     }
                 })()}
             </div>
