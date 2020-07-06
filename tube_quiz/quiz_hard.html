@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>The Tube Station Quiz</title>
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <script src="imgs.js"></script>
+    </head>
+    <body>
+        
+            <center>
+                <div class="main">
+                    <div id="content"></div>
+                        <img id="station" src="img/hard/arsenal.png">
+                        <br>
+                        <input autofocus id="guess" type="text">
+                        <input hidden id="submitBtn" type="submit" onclick="return handleChange()">
+                        <a id="submitGraphic" onclick="return handleChange()">
+                        <div class="button shadow">
+                            <p style="font-size: 1vw; color: white;">SUBMIT</p>
+                        </div>
+                        </a>       
+                        <a id="skipGraphic" onclick="return skip()">
+                        <div class="button shadow">
+                            <p style="font-size: 1vw; color: white;">SKIP</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </center>
+
+            <div class="bottom" >
+                    <!-- <div class="subtitle">
+                      <a style="font-family: portermedium; size: 100%;" href="mailto:contact@grundstein.global">CONTACT@GRUNDSTEIN.GLOBAL</a>
+                    </div> -->
+                    <center>
+                        <h5>HARD MODE</h5>
+                      <h3 id="score">Score: 0</h3>
+                    </center>
+                  </div>
+        </body>
+    <script>
+        // Get the input field
+        var textbox = document.getElementById("guess");
+
+        // Execute a function when the user releases a key on the keyboard
+        textbox.addEventListener("keyup", function(event) {
+            // Cancel the default action, if needed
+            event.preventDefault();
+            // Number 13 is the "Enter" key on the keyboard
+            if (event.keyCode === 13) {
+                // Trigger the button element with a click
+                document.getElementById("submitBtn").click();
+            }
+        });
+        
+        var count = 0;
+        var score = 0;
+
+        function handleChange(input) {
+            var x = document.getElementById("guess").value;
+            var stationName = document.getElementById("station").src;
+            stationName = stationName.substring(stationName.lastIndexOf('/') + 1).split('.')[0];
+            stationName = stationName.replace(/%20/g, " ");
+
+            if (x.toLowerCase() == stationName) {
+                alert("Correct answer!");
+                score++;
+                count++;
+                if (count <= 9) {
+                    document.getElementById("station").src = "img/hard/" + imgs[count + 20] + ".png";
+                    document.getElementById("score").innerHTML = "Score: " + score;
+                    document.getElementById("guess").value = "";
+                } else {
+                    document.getElementById("station").style.visibility = "hidden";
+                    document.getElementById("guess").style.visibility = "hidden";
+                    document.getElementById("submitGraphic").style.visibility = "hidden";
+                    document.getElementById("skipGraphic").style.visibility = "hidden";
+
+                    document.getElementById("score").style.fontSize = "4vw";
+                    document.getElementById("score").innerHTML = "Your final score: " + score + "/10";
+
+                }
+                return false;
+            } else {
+                alert("Incorrect answer!");
+            }
+            return true;
+        }
+
+        function skip(input) {
+            count++;
+            if (count <= 9) {
+                document.getElementById("station").src = "img/hard/" + imgs[count + 20] + ".png";
+                document.getElementById("score").innerHTML = "Score: " + score;
+                document.getElementById("guess").value = "";
+            } else {
+                document.getElementById("station").style.visibility = "hidden";
+                document.getElementById("guess").style.visibility = "hidden";
+                document.getElementById("submitGraphic").style.visibility = "hidden";
+                document.getElementById("skipGraphic").style.visibility = "hidden";
+                                    
+                document.getElementById("score").style.fontSize = "4vw";
+                document.getElementById("score").innerHTML = "Your final score: " + score + "/10";
+
+            }
+        }
+    </script>
+</html>

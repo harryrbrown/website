@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "underground";
+    src:url("../font/tube.ttf");
+}
+
+body, body h1, .bottom, .bottom a, .button p {
+    font-family: "underground";
+}
+
+@media screen  {
+    .main {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80%;
+      /* background-color: white; */
+    }
+  }
+  
+  .title {
+    /*background-color: #222;*/
+    font-family: "Oswald";
+    text-align: center;
+    /* color: #222; */
+    color: #263789;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  p a {
+    color: #E01A4F;
+  }
+  
+  .title p {
+    color: #E01A4F;
+  }
+  
+  .subtitle {
+    /*background-color: #222;*/
+    font-family: "porterbold";
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .title h1 {
+    font-size: 4vw;
+    padding: 10px 10px 0px 10px;
+    /* background-color: white; */
+    margin: 10px;
+  }
+  
+  .subtitle p {
+    font-size: 1.5vw;
+  }
+  
+  .comingsoon h2 {
+    font-size: 2vw;
+      font-family: "portermedium";
+      text-align: center;
+      margin: 0;
+  }
+  
+  .shadow {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  a {
+    color: #222;
+  }
+
+  input[type=text] {
+    border: none;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-bottom: 2px solid #263789;
+  }
+
+  input[type=text]:focus {
+    outline: none;
+  }
+  
+  .button {
+    padding: 0px 20px;
+    background-color: #263789;
+    /*color: white;*/
+    width: auto;
+    display: inline-block;
+    /*box-shadow: 5px 5px #222;*/
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  
+  .button:hover {
+     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: #E01A4F;
+    color: white;
+  }
+  
+  footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 40%;
+      color: #222;
+      text-align: center;
+  }
+  
+  .bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    padding-top: 2%;
+    text-align: center;
+  }
+  
+  .bottom a {
+    text-decoration: none;
+  }
+  
+  .bottomline {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1vh;
+    background-color: #E01A4F;
+    border-top: 1vh;
+    border-style: solid none none none;
+    border-color: #0C090D;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .main {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    .comingsoon h2 {
+      font-size: 80%;
+    }
+  
+    .title h1 {
+      font-size: 250%;
+      padding: 0px;
+    }
+  
+    .bottom {
+      /*width: 100%;*/
+      color: #222;
+      text-align: center;
+    }
+  }

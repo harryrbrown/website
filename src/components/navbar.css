@@ -1,0 +1,42 @@
+@media screen  {  
+  .nav {
+    position: fixed;
+    width: 90%;
+    text-align: right;
+    font-family: 'Raleway';
+    background-color: rgba(255, 255, 255, 0);
+    border-top: 5vh rgba(255, 255, 255, 0) solid;
+    border-bottom: 5vh rgba(255, 255, 255, 0) solid;
+    border-left: 10vw rgba(255, 255, 255, 0) solid;
+    z-index: 200;
+  }
+
+  .nav1 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: right;
+    font-family: 'Raleway';
+    background-color: white;
+    border-top: 5vh white solid;
+    border-bottom: 5vh white solid;
+    border-left: 10vw white solid;
+    z-index: 199;
+  }
+
+  .nav a {
+    text-decoration: none;
+    font-weight: 500;
+    padding: 20px;
+    color: #26547C;
+    transition: all 0.5s;
+  }
+
+  .nav a:hover {
+    color: #E01A4F;
+  }
+
+  .is-active {
+    font-weight: 800 !important;
+  }
+}

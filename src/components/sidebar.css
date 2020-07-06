@@ -1,0 +1,50 @@
+.bottom {
+    position: fixed;
+    right: 1vw;
+    bottom: 2vh;
+    width: 5%;
+    /* height: 30%; */
+    padding-top: 2%;
+    color: white;
+    /* background-color: black; */
+    text-align: right;
+    z-index: 100;
+  }
+  
+.bottom a {
+  text-decoration: none;
+}
+
+img.socialIcon {
+  opacity: 0.25;
+  filter: invert(0%);
+  transition: all 0.5s;
+  width: 1vw;
+}
+
+img.socialIcon:hover {
+  opacity: 0.7;
+  filter: invert(22%) sepia(82%) saturate(2800%) hue-rotate(328deg) brightness(87%) contrast(103%);
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  img.socialIcon {
+    width: 2.5vw;
+  }
+
+  .bottom {
+    right: 2.75vw;
+  }
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  img.socialIcon {
+    width: 2vw;
+  }
+
+  .bottom {
+    right: 2vw;
+  }
+}

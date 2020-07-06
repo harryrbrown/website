@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+h1, h2, h3 {
+  font-family: 'Abril Fatface', sans-serif;
+}
+
+.title {
+  /*background-color: #222;*/
+  text-align: left;
+  /* color: #222; */
+  color: black;
+  margin: 0;
+  /* padding: 20px; */
+}
+
+p {
+  font-family: 'Raleway';
+  color: #222;
+}
+
+p a {
+  color: #E01A4F;
+  text-decoration: none;
+}
+
+.title p {
+  color: #E01A4F;
+}
+
+.subtitle {
+  /*background-color: #222;*/
+  font-family: "porterbold";
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.title h1 {
+  font-size: 7vw;
+  font-weight: 400 !important;
+  line-height: 0.6;
+  /* -webkit-text-stroke: 1px white; */
+  /* padding: 10px 10px 0px 10px; */
+  /* background-color: white; */
+  /* margin: 10px; */
+}
+
+.title h2 {
+  color: #e01a4f;
+}
+
+.subtitle p {
+  font-size: 1.5vw;
+}
+
+.comingsoon h2 {
+  font-size: 2vw;
+    font-family: "portermedium";
+    text-align: center;
+    margin: 0;
+}
+
+.gradienttext {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+}
+
+.shadow {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+a {
+  color: #222;
+}
+
+.button {
+  font-family: "Oswald";
+  padding: 0px 20px;
+  background-color: #0C090D;
+  /*color: white;*/
+  width: auto;
+  display: inline-block;
+  /*box-shadow: 5px 5px #222;*/
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.button:hover {
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  background-color: #E01A4F;
+  color: white;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40%;
+    color: #222;
+    text-align: center;
+}
+
+
+.switch-wrapper {
+  position: relative;
+}
+ 
+.switch-wrapper > div {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+
+.ant-card-meta-title {
+  white-space: normal !important;
+}

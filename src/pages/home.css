@@ -1,0 +1,52 @@
+@media screen  {
+    .main {
+      padding-top: 20vh;
+      padding-left: 10%;
+      padding-right: 10%;
+      /* width: 80%; */
+      height: auto;
+    }
+
+    
+    .imgBg {
+      left: 0;
+      z-index: -11;
+      width: 100%;
+      height: 100%;
+      background-color: #E01A4F;
+      background-image: url("./../img/holborn.jpg");
+      background-blend-mode: lighten;
+      background-position-x: center;
+      background-position-y: 60%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      opacity: 0.7;
+    }
+
+
+    .imgBgShell {
+      z-index: -10;
+      left: 0;
+      width: 97%;
+      height: 100%;
+      position: absolute;
+      opacity: 1;
+      overflow: hidden;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .imgBgShell {
+    width: 92%;
+  }
+
+  .ant-card-meta-description {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  .imgBgShell {
+    width: 94%;
+  }
+}
