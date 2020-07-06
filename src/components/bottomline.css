@@ -9,4 +9,5 @@
     /* border-style: solid none none none;
     border-color: #0C090D; */
     text-align: center;
+    z-index: 999;
   }

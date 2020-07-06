@@ -1,0 +1,49 @@
+@media only screen and (max-device-width: 767px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .mobileMenu {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #26547C;
+        z-index: 200;
+    }
+
+    .mobileMenuInner {
+        width: 100%;
+        height: 80%;
+        margin-top: 20vh;
+        text-align: center;
+    }
+
+    .mobileMenuInner a {
+        color: white;
+        font-size: 9vw;
+        /* font-weight: 100; */
+    }
+
+    .mobileMenuInner a:active, .mobileMenuInner a:hover {
+        color: #E01A4F !important;
+    }
+  
+    .title h1 {
+      font-size: 20vw !important;
+    }
+
+    .mobileNavCross {
+        position: fixed;
+        right: 4vw;
+        top: 4vw;
+        z-index: 100;
+      }
+    
+    .mobileNavCross img {
+        filter: invert(99%) sepia(1%) saturate(2%) hue-rotate(301deg) brightness(106%) contrast(101%);
+        transition: all 0.5s;
+      }
+    
+    .mobileNavCross img:hover {
+        filter: invert(38%) sepia(74%) saturate(6446%) hue-rotate(329deg) brightness(86%) contrast(106%);
+        opacity: 0.7;
+      }
+  }

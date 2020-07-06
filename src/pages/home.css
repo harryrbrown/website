@@ -59,4 +59,8 @@
   .title h1 {
     font-size: 20vw !important;
   }
+
+  .ant-card-meta-description {
+    display: none;
+  }
 }
