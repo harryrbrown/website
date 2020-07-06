@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d101b2629f0f4005931252cbd670ad55",
+    "revision": "4a4bbd6c98b51d21b134034f2146c45c",
     "url": "/index.html"
   },
   {
-    "revision": "763fe09afff90a743f9b",
+    "revision": "d7771c8144019570db53",
     "url": "/static/css/2.c27a359e.chunk.css"
   },
   {
-    "revision": "5bd2a0321b1cdc4fa428",
-    "url": "/static/css/main.b94913df.chunk.css"
+    "revision": "b6997a911221d8267214",
+    "url": "/static/css/main.efa1d2dd.chunk.css"
   },
   {
-    "revision": "763fe09afff90a743f9b",
-    "url": "/static/js/2.b78030fd.chunk.js"
+    "revision": "d7771c8144019570db53",
+    "url": "/static/js/2.dace16af.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.b78030fd.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.dace16af.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5bd2a0321b1cdc4fa428",
-    "url": "/static/js/main.3695ec73.chunk.js"
+    "revision": "b6997a911221d8267214",
+    "url": "/static/js/main.d147d240.chunk.js"
   },
   {
     "revision": "ba126735810163618457",
@@ -60,6 +60,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/che.afc1be19.png"
   },
   {
+    "revision": "00b27c6bbcdc5e3c924b155ef99e5b23",
+    "url": "/static/media/hamburger.00b27c6b.svg"
+  },
+  {
     "revision": "dd2b36afac1931d8daea13d01f203949",
     "url": "/static/media/holborn.dd2b36af.jpg"
   },
@@ -86,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7e3e9d27406620f0d52686965c768241",
     "url": "/static/media/sentimentanalysis.7e3e9d27.png"
+  },
+  {
+    "revision": "8eba04804d8c18b234622fa31345bd9a",
+    "url": "/static/media/social.8eba0480.svg"
   },
   {
     "revision": "e40e345880135a0c4ed9088876904623",
