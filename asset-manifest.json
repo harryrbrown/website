@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b94913df.chunk.css",
+    "main.js": "/static/js/main.3695ec73.chunk.js",
+    "main.js.map": "/static/js/main.3695ec73.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3374ac37.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3374ac37.js.map",
+    "static/css/2.c27a359e.chunk.css": "/static/css/2.c27a359e.chunk.css",
+    "static/js/2.b78030fd.chunk.js": "/static/js/2.b78030fd.chunk.js",
+    "static/js/2.b78030fd.chunk.js.map": "/static/js/2.b78030fd.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.62ce3a5a67eafc678d269b356faf2dd2.js": "/precache-manifest.62ce3a5a67eafc678d269b356faf2dd2.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.c27a359e.chunk.css.map": "/static/css/2.c27a359e.chunk.css.map",
+    "static/css/main.b94913df.chunk.css.map": "/static/css/main.b94913df.chunk.css.map",
+    "static/js/2.b78030fd.chunk.js.LICENSE.txt": "/static/js/2.b78030fd.chunk.js.LICENSE.txt",
+    "static/media/025-messenger.svg": "/static/media/025-messenger.1927487b.svg",
+    "static/media/032-github.svg": "/static/media/032-github.192a6620.svg",
+    "static/media/044-instagram.svg": "/static/media/044-instagram.dca29619.svg",
+    "static/media/052-linkedin.svg": "/static/media/052-linkedin.3c8afea5.svg",
+    "static/media/082-spotify.svg": "/static/media/082-spotify.719ac2b3.svg",
+    "static/media/096-twitter.svg": "/static/media/096-twitter.1daf9a0e.svg",
+    "static/media/108-wechat.svg": "/static/media/108-wechat.3c339394.svg",
+    "static/media/che.png": "/static/media/che.afc1be19.png",
+    "static/media/home.css": "/static/media/holborn.dd2b36af.jpg",
+    "static/media/lbs.png": "/static/media/lbs.b4edfddd.png",
+    "static/media/logo.svg": "/static/media/logo.ee7cd8ed.svg",
+    "static/media/newcroft.png": "/static/media/newcroft.fc45743a.png",
+    "static/media/newtondavid.png": "/static/media/newtondavid.c9d671f1.png",
+    "static/media/prosopagnosiapp.png": "/static/media/prosopagnosiapp.05d6abdf.png",
+    "static/media/sentimentanalysis.png": "/static/media/sentimentanalysis.7e3e9d27.png",
+    "static/media/sparsematrix.png": "/static/media/sparsematrix.e40e3458.png",
+    "static/media/switch.svg": "/static/media/switch.e26b4c77.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3374ac37.js",
+    "static/css/2.c27a359e.chunk.css",
+    "static/js/2.b78030fd.chunk.js",
+    "static/css/main.b94913df.chunk.css",
+    "static/js/main.3695ec73.chunk.js"
+  ]
+}
