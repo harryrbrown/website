@@ -1,7 +1,6 @@
 import DeviceOrientation from 'react-device-orientation';
 import React from 'react';
 import { Popover } from 'antd';
-import { isSafari } from 'react-device-detect';
 
 import newyork from './../img/new_york.jpg';
 import holborn from './../img/holborn.jpg';
@@ -65,7 +64,7 @@ const Background = ({style}) => (
     
                             return (
                                 <div className="imgBgShell">
-                                    <div class="imgBg" style={{transform: `translateX(${0}px) translateY(${diff_b}px) scale(1.1)`}}></div>
+                                    <div class="imgBg" style={style} style={{transform: `translateX(${0}px) translateY(${diff_b}px) scale(1.1)`,...style}}></div>
                                 </div>
                             )
                         }
@@ -89,8 +88,7 @@ export default class Home extends React.Component{
 
         this.setState({
             imgBg: {
-                backgroundImage: `url(${backgroundImg})`,
-                backgroundSize: `cover`
+                backgroundImage: `url(${backgroundImg})`
             },
             title: titles[index],
             content: contents[index]
@@ -100,7 +98,7 @@ export default class Home extends React.Component{
     render() {
         return (
             <div>
-                {isSafari ? <Background /> : <Background style={this.state.imgBg}/>}
+                <Background style={this.state.imgBg}/>
                 
                 <div class="main">
                     <div class="title">
@@ -114,10 +112,7 @@ export default class Home extends React.Component{
                     </div>
                 </div>
 
-                {isSafari ? 
-                <Popover className="cameraPopover" placement="rightBottom" title="Holborn" content={(<div><p>🇬🇧 London, UK</p><p>📷 Google Pixel 2 XL</p></div>)}><img src={camera}></img></Popover>
-                : 
-                <Popover className="cameraPopover" placement="rightBottom" title={this.state.title} content={this.state.content}><img src={camera}></img></Popover>}
+                <Popover className="cameraPopover" placement="rightBottom" title={this.state.title} content={this.state.content}><img src={camera}></img></Popover>
                 
             </div>
             
