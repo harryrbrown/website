@@ -1,4 +1,8 @@
-@media screen  {  
+@media only screen and (min-device-width: 768px)  {  
+  .mobileNav {
+    display: none;
+  }
+
   .nav {
     position: fixed;
     width: 90%;
@@ -38,5 +42,33 @@
 
   .is-active {
     font-weight: 800 !important;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  .nav, .nav1 {
+    display: none;
+  }
+
+  .mobileNav {
+    position: fixed;
+    right: 4vw;
+    top: 4vw;
+    z-index: 200;
+  }
+
+  .mobileNav img {
+    filter: invert(0%);
+    transition: all 0.5s;
+    opacity: 0.25;
+  }
+
+  .mobileNav img:hover {
+    filter: invert(38%) sepia(74%) saturate(6446%) hue-rotate(329deg) brightness(86%) contrast(106%);
+    opacity: 0.7;
+  }
+
+  img.hamburger {
+    width: 8vw;
   }
 }
