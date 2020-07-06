@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.efa1d2dd.chunk.css",
-    "main.js": "/static/js/main.d147d240.chunk.js",
-    "main.js.map": "/static/js/main.d147d240.chunk.js.map",
+    "main.css": "/static/css/main.8d7a54ee.chunk.css",
+    "main.js": "/static/js/main.06ec9522.chunk.js",
+    "main.js.map": "/static/js/main.06ec9522.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3374ac37.js",
     "runtime-main.js.map": "/static/js/runtime-main.3374ac37.js.map",
     "static/css/2.c27a359e.chunk.css": "/static/css/2.c27a359e.chunk.css",
-    "static/js/2.dace16af.chunk.js": "/static/js/2.dace16af.chunk.js",
-    "static/js/2.dace16af.chunk.js.map": "/static/js/2.dace16af.chunk.js.map",
+    "static/js/2.707a6b57.chunk.js": "/static/js/2.707a6b57.chunk.js",
+    "static/js/2.707a6b57.chunk.js.map": "/static/js/2.707a6b57.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f34d67e84924cb0ab08d78bb4bd4e8a0.js": "/precache-manifest.f34d67e84924cb0ab08d78bb4bd4e8a0.js",
+    "precache-manifest.cfe3f30d8c2d654b791d8353986229fa.js": "/precache-manifest.cfe3f30d8c2d654b791d8353986229fa.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.c27a359e.chunk.css.map": "/static/css/2.c27a359e.chunk.css.map",
-    "static/css/main.efa1d2dd.chunk.css.map": "/static/css/main.efa1d2dd.chunk.css.map",
-    "static/js/2.dace16af.chunk.js.LICENSE.txt": "/static/js/2.dace16af.chunk.js.LICENSE.txt",
+    "static/css/main.8d7a54ee.chunk.css.map": "/static/css/main.8d7a54ee.chunk.css.map",
+    "static/js/2.707a6b57.chunk.js.LICENSE.txt": "/static/js/2.707a6b57.chunk.js.LICENSE.txt",
     "static/media/025-messenger.svg": "/static/media/025-messenger.1927487b.svg",
     "static/media/032-github.svg": "/static/media/032-github.192a6620.svg",
     "static/media/044-instagram.svg": "/static/media/044-instagram.dca29619.svg",
@@ -22,6 +22,9 @@
     "static/media/096-twitter.svg": "/static/media/096-twitter.1daf9a0e.svg",
     "static/media/108-wechat.svg": "/static/media/108-wechat.3c339394.svg",
     "static/media/che.png": "/static/media/che.afc1be19.png",
+    "static/media/cross.svg": "/static/media/cross.62eefd11.svg",
+    "static/media/fallen.png": "/static/media/fallen.c1828b46.png",
+    "static/media/grundstein.png": "/static/media/grundstein.1fcc78d0.png",
     "static/media/hamburger.svg": "/static/media/hamburger.00b27c6b.svg",
     "static/media/home.css": "/static/media/holborn.dd2b36af.jpg",
     "static/media/lbs.png": "/static/media/lbs.b4edfddd.png",
@@ -37,8 +40,8 @@
   "entrypoints": [
     "static/js/runtime-main.3374ac37.js",
     "static/css/2.c27a359e.chunk.css",
-    "static/js/2.dace16af.chunk.js",
-    "static/css/main.efa1d2dd.chunk.css",
-    "static/js/main.d147d240.chunk.js"
+    "static/js/2.707a6b57.chunk.js",
+    "static/css/main.8d7a54ee.chunk.css",
+    "static/js/main.06ec9522.chunk.js"
   ]
 }
