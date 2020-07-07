@@ -8,11 +8,11 @@ import NavbarBack from './../components/NavbarBack';
 import prosopagnosiapp from './../img/prosopagnosiapp.png';
 import sentimentanalysis from './../img/sentimentanalysis.png';
 import sparsematrix from './../img/sparsematrix.png';
-import londonbusinessschool from './../img/lbs.png';
-import newtondavid from './../img/newtondavid.png';
-import newcroft from './../img/newcroft.png';
-import chevillagehall from './../img/che.png';
-import grundstein from './../img/grundstein.png';
+import londonbusinessschool from './../img/lbs.jpeg';
+import newtondavid from './../img/newtondavid.jpeg';
+import newcroft from './../img/newcroft.jpeg';
+import chevillagehall from './../img/che.jpeg';
+import grundstein from './../img/grundstein.jpeg';
 import fallen from './../img/fallen.png';
 
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'

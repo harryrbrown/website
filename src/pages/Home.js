@@ -7,7 +7,6 @@ import holborn from './../img/holborn.jpg';
 import singapore from './../img/singapore.jpg';
 import shanghai from './../img/shanghai.jpg';
 import kensington from './../img/kensington.jpg';
-import sapporo from './../img/sapporo.jpg';
 import camera from './../img/camera_circle.svg';
 
 import './home.css';
