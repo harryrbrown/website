@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6ce6221852997ef55ca4d042b9c4c96e",
+    "revision": "6acfc7bf444a436f1c95a2908fd3ddf9",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.c27a359e.chunk.css"
   },
   {
-    "revision": "04b46ffc3951601b3d84",
+    "revision": "44fa6059f106fadff77d",
     "url": "/static/css/main.a6a9f4be.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.2050cbd0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "04b46ffc3951601b3d84",
-    "url": "/static/js/main.57964b78.chunk.js"
+    "revision": "44fa6059f106fadff77d",
+    "url": "/static/js/main.ca6350e6.chunk.js"
   },
   {
     "revision": "ba126735810163618457",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/camera_circle.b9c4406b.svg"
   },
   {
-    "revision": "afc1be19e42909f8e8e91fe5885c715b",
-    "url": "/static/media/che.afc1be19.png"
+    "revision": "a7fe398195cd018af73dc227bfc3a83c",
+    "url": "/static/media/che.a7fe3981.jpeg"
   },
   {
     "revision": "62eefd11215424ec653ab194330af840",
@@ -72,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fallen.c1828b46.png"
   },
   {
-    "revision": "1fcc78d051e054666cf3bc3475257998",
-    "url": "/static/media/grundstein.1fcc78d0.png"
+    "revision": "c011711077528735e54760b39bd934bc",
+    "url": "/static/media/grundstein.c0117110.jpeg"
   },
   {
     "revision": "00b27c6bbcdc5e3c924b155ef99e5b23",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/kensington.689d9b63.jpg"
   },
   {
-    "revision": "b4edfddd42ffa69b856882df7caa7391",
-    "url": "/static/media/lbs.b4edfddd.png"
+    "revision": "6c1d0172fc753c783de09cfbe851668f",
+    "url": "/static/media/lbs.6c1d0172.jpeg"
   },
   {
     "revision": "ee7cd8ed2dcec943251eb2763684fc6f",
@@ -100,12 +100,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/new_york.53bb3241.jpg"
   },
   {
-    "revision": "fc45743a2063555adb86445221665a7f",
-    "url": "/static/media/newcroft.fc45743a.png"
+    "revision": "15e99ee5bfa6f2522c7f5287f08dcff5",
+    "url": "/static/media/newcroft.15e99ee5.jpeg"
   },
   {
-    "revision": "c9d671f115364730479b0246152a8d2c",
-    "url": "/static/media/newtondavid.c9d671f1.png"
+    "revision": "3a8741ce2d164f736719adbb9b2a48a0",
+    "url": "/static/media/newtondavid.3a8741ce.jpeg"
   },
   {
     "revision": "05d6abdfffe385e72d294659e3b9afb0",
