@@ -4,6 +4,10 @@ import { Popover } from 'antd';
 
 import newyork from './../img/new_york.jpg';
 import holborn from './../img/holborn.jpg';
+import singapore from './../img/singapore.jpg';
+import shanghai from './../img/shanghai.jpg';
+import kensington from './../img/kensington.jpg';
+import sapporo from './../img/sapporo.jpg';
 import camera from './../img/camera_circle.svg';
 
 import './home.css';
@@ -80,15 +84,23 @@ const Background = ({style}) => (
 
 export default class Home extends React.Component{
     componentWillMount() {
-        const images = [newyork, holborn];
-        const titles = ["World Trade Center", "Holborn"]
-        const contents = [(<div><p>🇺🇸 New York City, USA</p><p>📷 Google Pixel 2 XL</p></div>), (<div><p>🇬🇧 London, UK</p><p>📷 Google Pixel 2 XL</p></div>)]
+        const images = [newyork, holborn, singapore, shanghai, kensington];
+        const titles = ["World Trade Center", "Holborn", "Gardens by the Bay", "Pudong", "Kensington"]
+        const contents = [(<div><p>🇺🇸 New York City, USA</p><p>📷 Google Pixel 2 XL</p></div>), (<div><p>🇬🇧 London, UK</p><p>📷 Google Pixel 2 XL</p></div>), 
+                            (<div><p>🇸🇬 Singapore</p><p>📷 Google Pixel 2 XL</p></div>), (<div><p>🇨🇳 Shanghai, CN</p><p>📷 Google Pixel 2 XL</p></div>),
+                            (<div><p>🇬🇧 London, UK</p><p>📷 Google Pixel 2 XL</p></div>)]
         const index = Math.floor(Math.random() * images.length);
         const backgroundImg = images[index];
 
+        var bgPosY = ``;
+        if (index == 2) { bgPosY = `75%`; }
+        else if (index == 3) { bgPosY = `20%`; }
+        else { bgPosY = `60%`; }
+
         this.setState({
             imgBg: {
-                backgroundImage: `url(${backgroundImg})`
+                backgroundImage: `url(${backgroundImg})`,
+                backgroundPositionY: bgPosY
             },
             title: titles[index],
             content: contents[index]
