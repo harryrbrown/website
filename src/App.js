@@ -35,7 +35,7 @@ const bounceTransition = {
   // start in a transparent, upscaled state
   atEnter: {
     opacity: 0,
-    scale: 1.2,
+    scale: 1,
   },
   // leave in a transparent, downscaled state
   atLeave: {
