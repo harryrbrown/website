@@ -9,7 +9,7 @@ export default class About extends React.Component{
         <div class="main">
             <div class="title">
                 <h1>
-                    <span class="gradienttext" style={{background: "linear-gradient(#26547C, #333)"}}>About</span>
+                    <span class="gradienttext">About</span>
                 </h1>
                 <br></br>
             </div>

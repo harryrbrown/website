@@ -1,0 +1,15 @@
+.theme-light {
+    --text: #222;
+    --title-gradient-from: #26547C;
+    --title-gradient-to: #333;
+    --background: #FFF;
+    --accent: #E01A4F;
+  }
+
+.theme-dark {
+    --text: #FFF;
+    --title-gradient-from: #FFF;
+    --title-gradient-to: #DDD;
+    --background: #222;
+    --accent: #E01A4F;
+  }

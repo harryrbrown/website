@@ -12,6 +12,7 @@ import londonbusinessschool from './../img/lbs.jpeg';
 import newtondavid from './../img/newtondavid.jpeg';
 import newcroft from './../img/newcroft.jpeg';
 import chevillagehall from './../img/che.jpeg';
+import pierview from './../img/pierview_border.png';
 import grundstein from './../img/grundstein.jpeg';
 import fallen from './../img/fallen.png';
 
@@ -65,12 +66,10 @@ export default class About extends React.Component{
         }
         return (
             <div>
-            
-            <NavbarBack></NavbarBack>
             <div class="main">
                 <div class="title">
                     <h1>
-                        <span class="gradienttext" style={{background: "linear-gradient(#26547C, #333)"}}>Work</span>
+                        <span class="gradienttext">Work</span>
                     </h1>
                     <br></br>
                 </div>
@@ -91,16 +90,20 @@ export default class About extends React.Component{
                             <br></br>
                     </Col>
                     <Col className="gutter-row" span={column_span}>
-                        <FilledCard img={londonbusinessschool} title="London Business School Healthcare Conference 2020" cardWidth={card_width}
-                            description="I was commissioned by London Business School's Healthcare Club to create a website for their 11th annual conference in February
-                            2020."></FilledCard>
+                        <FilledCard img={londonbusinessschool} title="London Business School Healthcare Conference" cardWidth={card_width}
+                            description="I was commissioned by London Business School's Healthcare Club to create a website for their 10th and 11th annual conferences in 
+                            2019 and 2020."></FilledCard>
                     </Col>
                 </Row><br></br><br></br>
                 <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
                     <Col className="gutter-row" span={column_span}>
-                        <FilledCard img={chevillagehall} title="Cornish Hall End Village Hall" cardWidth={card_width}
+                        <FilledCard img={chevillagehall} title="Pierview Holidays" cardWidth={card_width}
                             description="I designed a new website for the Cornish Hall End Village Hall, after it was refurbished and reopened in 2020. I then trained some
                             of the Hall's staff on updating the site and adding new content."></FilledCard><br></br>
+                    </Col>
+                    <Col className="gutter-row" span={column_span}>
+                        <FilledCard img={pierview} title="Pierview Holidays" cardWidth={card_width}
+                            description="In 2020 I helped to build a lettings website for a holiday property in North Wales."></FilledCard><br></br>
                     </Col>
                     <Col className="gutter-row" span={column_span}>
                         <FilledCard img={grundstein} title="Grundstein Global" cardWidth={card_width}

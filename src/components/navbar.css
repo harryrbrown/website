@@ -5,13 +5,16 @@
 
   .nav {
     position: fixed;
-    width: 90%;
     text-align: right;
-    font-family: 'Raleway';
-    background-color: rgba(255, 255, 255, 0);
-    border-top: 5vh rgba(255, 255, 255, 0) solid;
-    border-bottom: 5vh rgba(255, 255, 255, 0) solid;
-    border-left: 10vw rgba(255, 255, 255, 0) solid;
+    right: 10vw;
+    top: 2vh;
+    -webkit-backdrop-filter: blur(100px);
+    backdrop-filter: blur(100px);
+    border-top: 3vh rgba(255, 255, 255, 0) solid;
+    border-bottom: 3vh rgba(255, 255, 255, 0) solid;
+    padding: 0px 2vh;
+    border-radius: 1000px;
+    /* border-right: 10vw rgba(255, 255, 255, 0) solid; */
     z-index: 100;
   }
 
@@ -25,7 +28,6 @@
     top: 0;
     width: 100%;
     text-align: right;
-    font-family: 'Raleway';
     background-color: white;
     border-top: 5vh white solid;
     border-bottom: 5vh white solid;
@@ -37,12 +39,12 @@
     text-decoration: none;
     font-weight: 500;
     padding: 20px;
-    color: #26547C;
+    color: var(--title-gradient-from);
     transition: all 0.5s;
   }
 
   .nav a:hover, .homepage-nav a:hover {
-    color: #E01A4F;
+    color: var(--accent);
   }
 
   .is-active {

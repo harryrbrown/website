@@ -14,6 +14,8 @@ import logo from './logo.svg';
 import './App.css';
 import './css/fonts.css';
 import { useSelector } from 'react-redux';
+import { keepTheme } from './utils/themes';
+import ThemeToggle from './components/ThemeToggle';
 
 function mapStyles(styles) {
   return {
@@ -52,10 +54,15 @@ const bounceTransition = {
 function App() {
   let isHomepage = useSelector((state) => state.config.isHomepage)
 
+  useEffect(() => {
+    keepTheme();
+  })
+
   return (
     <BrowserRouter basename='/'>
       <div>
         { !isHomepage ? <Navbar></Navbar> : <></> }
+        <ThemeToggle/>
         <Sidebar></Sidebar>
         <AnimatedSwitch
           atEnter={bounceTransition.atEnter}

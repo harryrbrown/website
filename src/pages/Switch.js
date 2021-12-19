@@ -9,7 +9,7 @@ export default class Switch extends React.Component{
         <div class="main">
             <div class="title">
                 <h1>
-                    <span class="gradienttext" style={{background: "linear-gradient(#26547C, #333)"}}>Add me on</span>
+                    <span class="gradienttext">Add me on</span>
                     <br></br>&nbsp;
                     <span class="gradienttext" style={{background: "linear-gradient(#E01A4F, #EF626C)"}}>Switch!</span>
                 </h1>

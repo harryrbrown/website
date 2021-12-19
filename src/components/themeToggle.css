@@ -1,0 +1,44 @@
+.toggle {
+    position: fixed;
+    right: 1vw;
+    top: 2vh;
+    width: 5%;
+    /* height: 30%; */
+    /* padding-top: 2%; */
+    color: white;
+    /* background-color: black; */
+    text-align: right;
+    z-index: 100;
+}
+
+.toggle button {
+    width: 1vw;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .toggle button {
+      width: 2.5vw;
+    }
+  
+    .toggle {
+      right: 2.75vw;
+    }
+  }
+  
+  
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    .toggle button {
+      width: 2vw;
+    }
+  
+    .toggle {
+      right: 2vw;
+    }
+  }
+  
+  
+  @media only screen and (max-device-width: 767px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .toggle {
+      display: none;
+    }
+  }

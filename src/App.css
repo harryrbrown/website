@@ -1,3 +1,8 @@
+body {
+  background-color: var(--background);
+  transition: all 0.5s;
+}
+
 .App {
   text-align: center;
 }
@@ -54,17 +59,19 @@ h1, h2, h3, h1 span {
 }
 
 p {
-  /* font-family: 'Raleway'; */
-  color: #222;
+  color: var(--text);
+  transition: all 0.5s;
 }
 
 p a {
-  color: #E01A4F;
+  color: var(--accent);
+  transition: all 0.5s;
   text-decoration: none;
 }
 
 .title p {
-  color: #E01A4F;
+  color: var(--accent);
+  transition: all 0.5s;
 }
 
 .subtitle {
@@ -86,7 +93,7 @@ p a {
 }
 
 .title h2 {
-  color: #e01a4f;
+  color: var(--accent);
 }
 
 .subtitle p {
@@ -103,6 +110,7 @@ p a {
 .gradienttext {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
+  background: linear-gradient(var(--title-gradient-from), var(--title-gradient-to));
 }
 
 .shadow {
