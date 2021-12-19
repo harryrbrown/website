@@ -31,11 +31,6 @@ const FilledCard = ({ img, title, description, onclick, cardWidth }) => (
             src={img}
         />
         }
-        actions={[
-            <SettingOutlined key="setting" />,
-            <EditOutlined key="edit" />,
-            <EllipsisOutlined key="ellipsis" />,
-        ]}
     >
         <Meta
             title={title}
@@ -104,11 +99,12 @@ export default class About extends React.Component{
                 <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
                     <Col className="gutter-row" span={column_span}>
                         <FilledCard img={chevillagehall} title="Cornish Hall End Village Hall" cardWidth={card_width}
-                            description="For my final year project, I ..."></FilledCard><br></br>
+                            description="I designed a new website for the Cornish Hall End Village Hall, after it was refurbished and reopened in 2020. I then trained some
+                            of the Hall's staff on updating the site and adding new content."></FilledCard><br></br>
                     </Col>
                     <Col className="gutter-row" span={column_span}>
                         <FilledCard img={grundstein} title="Grundstein Global" cardWidth={card_width}
-                            description="For my final year project, I ..."></FilledCard><br></br>
+                            description="I developed the website for Grundstein Global using Spring Boot."></FilledCard><br></br>
                     </Col>
                 </Row>
                 <br></br><br></br>
@@ -117,7 +113,8 @@ export default class About extends React.Component{
                 <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
                     <Col className="gutter-row" span={column_span}>
                         <FilledCard img={sparsematrix} title="An aggregated sparse matrix factorisation model for market trading" cardWidth={card_width}
-                            description="For my final year project, I ..."></FilledCard><br></br>
+                            description="For my final year project, I developed a sparce matrix factorisation model to analyse the relationship between public sentiment on Twitter,
+                            Reuters news articles, and stock market prices. My work was selected among the Department of Computing's 2019/20 Distinguished Projects."></FilledCard><br></br>
                     </Col>
                     <Col className="gutter-row" span={column_span}>
                         <FilledCard img={sentimentanalysis} title="Aspect-based sentiment analysis for investment" cardWidth={card_width}

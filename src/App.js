@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect, useState } from 'react';
 import { BrowserRouter, HashRouter, Route, Link, Switch } from 'react-router-dom'; 
 import { AnimatedSwitch } from 'react-router-transition';
 import Navbar from './components/Navbar';
@@ -11,14 +11,16 @@ import Contact from './pages/Contact';
 import _Switch from './pages/Switch';
 import logo from './logo.svg';
 import './App.css';
-
-
+import './css/fonts.css';
+import { useSelector } from 'react-redux';
 
 function App() {
+  let isHomepage = useSelector((state) => state.config.isHomepage)
+
   return (
     <BrowserRouter basename='/'>
       <div>
-        <Navbar></Navbar>
+        { !isHomepage ? <Navbar></Navbar> : <></> }
         <Sidebar></Sidebar>
         <AnimatedSwitch
           atEnter={{ opacity: 0 }}

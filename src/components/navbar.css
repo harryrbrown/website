@@ -15,6 +15,11 @@
     z-index: 100;
   }
 
+  .homepage-nav {
+    text-align: center;
+    border-top: 10vh rgba(255, 255, 255, 0) solid;
+  }
+
   .nav1 {
     position: fixed;
     top: 0;
@@ -28,7 +33,7 @@
     z-index: 99;
   }
 
-  .nav a {
+  .nav a, .homepage-nav a {
     text-decoration: none;
     font-weight: 500;
     padding: 20px;
@@ -36,7 +41,7 @@
     transition: all 0.5s;
   }
 
-  .nav a:hover {
+  .nav a:hover, .homepage-nav a:hover {
     color: #E01A4F;
   }
 
@@ -88,4 +93,36 @@
   img.hamburger {
     width: 8vw;
   }
+}
+
+.nav {
+  animation: fadeIn 0.5s;
+  -webkit-animation: fadeIn 0.5s;
+  -moz-animation: fadeIn 0.5s;
+  -o-animation: fadeIn 0.5s;
+  -ms-animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
