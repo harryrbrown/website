@@ -23,7 +23,7 @@
     }
 
     .mobileMenuInner a:active, .mobileMenuInner a:hover {
-        color: #E01A4F !important;
+        color: var(--accent) !important;
     }
   
     .title h1 {
