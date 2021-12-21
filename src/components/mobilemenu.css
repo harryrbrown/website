@@ -5,7 +5,8 @@
         top: 0;
         width: 100%;
         height: 100%;
-        background-color: #26547C;
+        -webkit-backdrop-filter: blur(100px);
+        backdrop-filter: blur(100px);
         z-index: 200;
     }
 
@@ -17,7 +18,7 @@
     }
 
     .mobileMenuInner a {
-        color: white;
+        color: var(--title-gradient-from);
         font-size: 9vw;
         /* font-weight: 100; */
     }
@@ -38,7 +39,7 @@
       }
     
     .mobileNavCross img {
-        filter: invert(99%) sepia(1%) saturate(2%) hue-rotate(301deg) brightness(106%) contrast(101%);
+        filter: var(--icons-mobile-menu);
         transition: all 0.5s;
       }
     

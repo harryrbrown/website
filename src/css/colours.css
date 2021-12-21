@@ -5,6 +5,7 @@
     --background: #FFF;
     --accent: #E01A4F;
     --icons-neutral: invert(0%);
+    --icons-mobile-menu: invert(26%) sepia(13%) saturate(3224%) hue-rotate(169deg) brightness(94%) contrast(82%);
   }
 
 .theme-dark {
@@ -14,4 +15,5 @@
     --background: #222;
     --accent: #E01A4F;
     --icons-neutral: invert(100%) sepia(100%) saturate(0%) hue-rotate(259deg) brightness(112%) contrast(102%);
+    --icons-mobile-menu: invert(99%) sepia(1%) saturate(2%) hue-rotate(301deg) brightness(106%) contrast(101%);
   }
