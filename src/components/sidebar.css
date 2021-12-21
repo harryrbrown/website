@@ -17,7 +17,7 @@
 
 img.socialIcon {
   opacity: 0.25;
-  filter: invert(0%);
+  filter: var(--icons-neutral);
   transition: all 0.5s;
   width: 1vw;
 }
@@ -51,6 +51,17 @@ img.socialIcon:hover {
 
 
 @media only screen and (max-device-width: 767px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .bottom {
+    display: none;
+  }
+
+  img.socialIcon {
+    width: 10vw;
+    margin-right: 5vw;
+  }
+}
+
+@media only screen and (max-device-height: 767px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
   .bottom {
     display: none;
   }

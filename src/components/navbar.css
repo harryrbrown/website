@@ -81,7 +81,7 @@
   }
 
   .mobileNav img {
-    filter: invert(0%);
+    filter: var(--icons-neutral);
     transition: all 0.5s;
     opacity: 0.25;
   }

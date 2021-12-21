@@ -1,7 +1,7 @@
 .toggle {
     position: fixed;
     right: 1vw;
-    top: 2vh;
+    top: 4.7vh;
     width: 5%;
     /* height: 30%; */
     /* padding-top: 2%; */
@@ -40,6 +40,15 @@
   @media only screen and (max-device-width: 767px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
     .toggle {
       width: auto;
-      right: 2vh;
+      right: 3vw;
+      top: 14vw;
+    }
+  }
+
+  @media only screen and (max-device-width: 767px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    .toggle {
+      width: auto;
+      right: 4vw;
+      top: 14vw;
     }
   }
