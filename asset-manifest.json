@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.8128aedc.css",
+    "main.css": "/static/css/main.fc7831e4.css",
     "main.js": "/static/js/main.09a8effc.js",
     "pdfmake.js": "/static/js/pdfmake.4de3c828.chunk.js",
     "canvg.js": "/static/js/canvg.fbe21012.chunk.js",
@@ -32,14 +32,14 @@
     "static/media/025-messenger.svg": "/static/media/025-messenger.b9ee067fcb6595728b9852d846352bac.svg",
     "static/media/cross.svg": "/static/media/cross.7e2a977d507c0074275fb080e7b610aa.svg",
     "static/media/hamburger.svg": "/static/media/hamburger.5181571974fa8c324ee81bf69f4af86f.svg",
-    "main.8128aedc.css.map": "/static/css/main.8128aedc.css.map",
+    "main.fc7831e4.css.map": "/static/css/main.fc7831e4.css.map",
     "main.09a8effc.js.map": "/static/js/main.09a8effc.js.map",
     "pdfmake.4de3c828.chunk.js.map": "/static/js/pdfmake.4de3c828.chunk.js.map",
     "canvg.fbe21012.chunk.js.map": "/static/js/canvg.fbe21012.chunk.js.map",
     "959.a49e52f3.chunk.js.map": "/static/js/959.a49e52f3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8128aedc.css",
+    "static/css/main.fc7831e4.css",
     "static/js/main.09a8effc.js"
   ]
 }
