@@ -81,6 +81,9 @@ export default class Travel extends React.Component{
             "id": "SE",
             "fill": chart.colors.getIndex(0)
           }, {
+            "id": "PT",
+            "fill": chart.colors.getIndex(0)
+          }, {
             "id": "QA",
             "fill": chart.colors.getIndex(0)
           }, {
@@ -272,6 +275,16 @@ export default class Travel extends React.Component{
             "title": "Milan",
             "latitude": 45.466944,
             "longitude": 9.19,
+            "color":colorSet.next()
+          }, {
+            "title": "Porto",
+            "latitude": 41.1579,
+            "longitude": -8.6291,
+            "color":colorSet.next()
+          }, {
+            "title": "Lisbon",
+            "latitude": 38.7223,
+            "longitude": -9.1393,
             "color":colorSet.next()
           }, {
             "title": "Tenerife",

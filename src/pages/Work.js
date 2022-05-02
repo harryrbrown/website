@@ -13,6 +13,7 @@ import newtondavid from './../img/newtondavid.jpeg';
 import newcroft from './../img/newcroft.jpeg';
 import chevillagehall from './../img/che.jpeg';
 import pierview from './../img/pierview_border.png';
+import tripshappen from './../img/tripshappen_border.png';
 import grundstein from './../img/grundstein.jpeg';
 import fallen from './../img/fallen.png';
 import screenprint from './../img/screenprint.png';
@@ -81,8 +82,20 @@ export default class About extends React.Component{
                 </div>
                 <div style={{width: "100%"}}>
                     
-                <Divider orientation="left"><h1 style={{color: "#E01A4F"}}>Web Design</h1></Divider><br></br>
+                <Divider orientation="left"><h1 style={{color: "#E01A4F"}}>Web Development and Design</h1></Divider><br></br>
                 <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
+                    <Col xs={24} md={16} xl={8}>
+                        <FilledCard 
+                            img={tripshappen} 
+                            title="TripsHappen" 
+                            onclick={() => this.showDrawer("TripsHappen", <><p>Developed in collaboration with <a href="https://www.linkedin.com/in/matthew-barrett-a49929177/">
+                                Matthew Barrett
+                            </a>.
+                            </p><p><b>Link: <a href="https://tripshappen.co.uk">TripsHappen</a></b></p></>)} 
+                            description="TripsHappen is an aggregator of cheap flights departing from the UK, specifically within the immediate next two weeks. Front end 
+                            designed in React / Typescript, with MUI as the component library and deck.gl for the globe visualisation.">
+                        </FilledCard><br></br>
+                    </Col>
                     <Col xs={24} md={16} xl={8}>
                         <FilledCard 
                             img={newcroft} 
@@ -102,6 +115,8 @@ export default class About extends React.Component{
                             wide range of services, including delivering IOSH training, and wanted a small and lightweight website to promote their business. ">
                         </FilledCard><br></br>
                     </Col>
+                </Row><br></br><br></br>
+                <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
                     <Col xs={24} md={16} xl={8}>
                         <FilledCard 
                             img={londonbusinessschool} 
@@ -111,8 +126,6 @@ export default class About extends React.Component{
                             2019 and 2020.">
                         </FilledCard>
                     </Col>
-                </Row><br></br><br></br>
-                <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
                     <Col xs={24} md={16} xl={8}>
                         <FilledCard 
                             img={chevillagehall} 
@@ -130,6 +143,10 @@ export default class About extends React.Component{
                             description="In 2020 I helped to build a lettings website for a holiday property in North Wales.">
                         </FilledCard><br></br>
                     </Col>
+                </Row>
+                <br></br><br></br>
+
+                <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
                     <Col xs={24} md={16} xl={8}>
                         <FilledCard 
                             img={grundstein} 
@@ -215,7 +232,8 @@ export default class About extends React.Component{
                         <FilledCard 
                             img={fractals} 
                             title="OpenCL Fractals" 
-                            onclick={() => this.showDrawer("OpenCL Fractals", <>Test</>)} 
+                            onclick={() => this.showDrawer("OpenCL Fractals", <><p>A sixth-form project, implementing OpenCL within Python to render Mandelbrot and Julia fractals.
+                            </p><p><b>Link: <a href="https://github.com/harryrbrown/opencl-fractals">GitHub</a></b></p></>)} 
                             // cardWidth={card_width}
                             description="Python fractal generator, leveraging OpenCL to improve rendering speeds.">
                         </FilledCard><br></br>
