@@ -15,7 +15,7 @@ export default class About extends React.Component{
             </div>
             <div>
                 <p>I'm Harry, a software engineer, part-time designer, and 2020 graduate from Imperial College London.</p>
-                <p>I live near Saffron Walden, Essex, but you can find a map of places I have visited <Link to="/travel">here</Link>.</p>
+                <p>I moved to Toronto, Ontario in 2022, but you can find a map of places I have visited <Link to="/travel">here</Link>.</p>
             </div>
         </div>
     );
