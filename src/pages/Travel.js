@@ -137,6 +137,41 @@ export default class Travel extends React.Component{
         var colorSet = new am4core.ColorSet();
     
         imageSeries.data = [ {
+            "title": "Victoria",
+            "latitude": 48.43,
+            "longitude": -123.36,
+            "color":colorSet.next()
+          }, {
+            "title": "Vancouver",
+            "latitude": 49.24,
+            "longitude": -123.05,
+            "color":colorSet.next()
+          }, {
+            "title": "Seattle",
+            "latitude": 47.39,
+            "longitude": -122.3,
+            "color":colorSet.next()
+          }, {
+            "title": "Kelowna",
+            "latitude": 49.90,
+            "longitude": -119.96,
+            "color":colorSet.next()
+          }, {
+            "title": "Yellowknife",
+            "latitude": 62.45,
+            "longitude": -114.37,
+            "color":colorSet.next()
+          }, {
+            "title": "Calgary",
+            "latitude": 51.04,
+            "longitude": -114.07,
+            "color":colorSet.next()
+          }, {
+            "title": "Saskatoon",
+            "latitude": 52.15,
+            "longitude": -106.66,
+            "color":colorSet.next()
+          }, {
             "title": "New York",
             "latitude": 40.712776,
             "longitude": -74.005974,
@@ -150,6 +185,16 @@ export default class Travel extends React.Component{
             "title": "Toronto",
             "latitude": 43.651070,
             "longitude": -79.347015,
+            "color":colorSet.next()
+          }, {
+            "title": "Montreal",
+            "latitude": 45.531,
+            "longitude": -73.63,
+            "color":colorSet.next()
+          }, {
+            "title": "Halifax",
+            "latitude": 44.65,
+            "longitude": -63.6,
             "color":colorSet.next()
           }, {
             "title": "Naples",
