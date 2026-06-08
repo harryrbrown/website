@@ -1,0 +1,63 @@
+.wl-header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.wl-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    flex-shrink: 0;
+}
+
+.wl-tagline {
+    font-size: 1.15rem;
+    max-width: 640px;
+    margin: 12px 0 20px;
+}
+
+.wl-play-badge {
+    height: 56px;
+    margin-bottom: 36px;
+}
+
+.wl-screenshots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 36px;
+}
+
+.wl-screenshot {
+    height: 220px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.wl-section-title {
+    color: var(--accent);
+    margin-bottom: 8px;
+}
+
+.wl-features {
+    margin: 0 0 28px 20px;
+    line-height: 1.8;
+}
+
+@media only screen and (max-device-width: 767px) {
+    .wl-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .wl-screenshots {
+        flex-direction: column;
+    }
+
+    .wl-screenshot {
+        height: auto;
+        width: 100%;
+    }
+}

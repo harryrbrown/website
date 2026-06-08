@@ -10,6 +10,8 @@ import Work from './pages/Work';
 import Contact from './pages/Contact';
 import Travel from './pages/Travel';
 import _Switch from './pages/Switch';
+import Waterlogged from './pages/Waterlogged';
+import WaterloggedPrivacy from './pages/WaterloggedPrivacy';
 import logo from './logo.svg';
 import './App.css';
 import './css/fonts.css';
@@ -77,6 +79,8 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Route path="/travel" component={Travel} />
           <Route path="/switch" component={_Switch} />
+          <Route exact path="/projects/waterlogged" component={Waterlogged} />
+          <Route path="/projects/waterlogged/privacy" component={WaterloggedPrivacy} />
         </AnimatedSwitch>
         <BottomLine></BottomLine>
       </div>
