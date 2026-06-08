@@ -61,7 +61,7 @@ function App() {
   })
 
   return (
-    <BrowserRouter basename='/'>
+    <HashRouter>
       <div>
         { !isHomepage ? <Navbar></Navbar> : <></> }
         <ThemeToggle/>
@@ -84,7 +84,7 @@ function App() {
         </AnimatedSwitch>
         <BottomLine></BottomLine>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
